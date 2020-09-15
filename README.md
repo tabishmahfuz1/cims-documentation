@@ -5,7 +5,7 @@
 ![Architecture Diagram](/ArchitectureDiagram.png)
 
 
-# Room Service Schema
+# Room Service Schema [Repository](https://github.com/tabishmahfuz1/room-service)
 ```
 scalar Date
 
@@ -105,7 +105,7 @@ input PostInput {
 }
 ```
 
-# File Storage Service APIs
+# File Storage Service APIs [Repository](https://github.com/tabishmahfuz1/file-storage-service)
 ## POST: file-upload
 **ContentType:** multipart-formdata
 
