@@ -6,7 +6,8 @@
 
 
 # Room Service Schema
-`scalar Date
+```
+scalar Date
 
 type Query {
     rooms(inp: RoomFilterInput): [Room]!
@@ -101,4 +102,5 @@ input PostInput {
     text: String
     labels: [String!]!
     parentPost: ID
-}`
+}
+```
