@@ -1,5 +1,7 @@
 # cims-documentation
 
+An application for managing Classroom Documents like Notes, Syllabus, Notices e.t.c.
+
 ## Architecture
 
 ![Architecture Diagram](/ArchitectureDiagram.png)
