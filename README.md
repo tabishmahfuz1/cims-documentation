@@ -147,6 +147,7 @@ input PostInput {
 **Description:** *Returns Labels for a document*
 **Prams:**
     - file: multipart file
+**Returns:** *A JSON array of recognised labels.*
 
 # [CIMS Frontend](https://github.com/tabishmahfuz1/cims-frontend)
 **Description:** *React based frontend for CIMS*
