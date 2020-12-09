@@ -6,6 +6,8 @@ Although we initially set out to create this only for classroom documents as sta
 
 There will also be a task list in each room which can be used to track progress, like syllabus for classrooms. 
 
+**NOTE:** *An additional step is now added to automatically extract labels from the attached documents. This was suggested by Sarfaraz Sir* 
+
 ## Architecture
 
 ![Architecture Diagram](/ArchitectureDiagram.png)
