@@ -12,6 +12,11 @@ There will also be a task list in each room which can be used to track progress,
 
 ![Architecture Diagram](/ArchitectureDiagram.png)
 
+## Design Principals
+We have splitted our application into various microservices. This approach allows for a better debugging and testing of issues. Each service is independent of each other. These separate services can also be re-used later on as they are very *self-contained* and are separated based on their responsibilities.
+
+We have strictly followed the **SOLID** principals in our code. This makes the code very maintainable and easily open to extensions later on, if needed.
+![SOLID Principals] (/solid-OOP_wall-skills.jpg)
 
 # [Room Service](https://github.com/tabishmahfuz1/room-service)
 ```
