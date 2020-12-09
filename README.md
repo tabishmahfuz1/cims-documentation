@@ -1,6 +1,6 @@
 # cims-documentation
 
-An application for managing (Classroom) Documents like Notes, Syllabus, Notices e.t.c. These documents can be oraganised by labels in separate rooms. These same labels can then later be used to filter these documents so as to make finding documents easier. 
+An application for 1 managing (Classroom) Documents like Notes, Syllabus, Notices e.t.c. These documents can be oraganised by labels in separate rooms. These same labels can then later be used to filter these documents so as to make finding documents easier. 
 
 Although we initially set out to create this only for classroom documents as stated above, the app can very well be used for other similar purposes where documents are needed to be organised and shared in some group.
 
