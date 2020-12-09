@@ -138,3 +138,13 @@ input PostInput {
 **Params:** *id* **NOTE**: This is a URL parameter
 
 **Description:** *Returns the file specified by the id*
+
+# [Doc Parser](https://github.com/tabishmahfuz1/doc-parser)
+## POST: /
+**ContentType:** multipart-formdata
+**Description:** *Returns Labels for a document*
+**Prams:**
+    - file: multipart file
+
+# [CIMS Frontend](https://github.com/tabishmahfuz1/cims-frontend)
+**Description:** *React based frontend for CIMS*
