@@ -17,11 +17,16 @@ We have splitted our application into various microservices. This approach allow
 ![Microservices Characteristics](/microservice-characteristics.webp)
 
 
+
 We have strictly followed the **SOLID** principals in our code. This makes the code very maintainable and easily open to extensions later on, if needed.
 
 ![SOLID Principals](/solid-OOP_wall-skills.jpg)
 
-# [Room Service](https://github.com/tabishmahfuz1/room-service)
+# Services
+
+## [Room Service](https://github.com/tabishmahfuz1/room-service)
+**Technologies Used:** *NodeJS, Typescript, GraphQL, MongoDB*
+**Schema:**
 ```
 scalar Date
 
@@ -121,7 +126,7 @@ input PostInput {
 }
 ```
 
-# [File Storage Service](https://github.com/tabishmahfuz1/file-storage-service)
+## [File Storage Service](https://github.com/tabishmahfuz1/file-storage-service)
 ## POST: file-upload
 **ContentType:** multipart-formdata
 
@@ -149,13 +154,13 @@ input PostInput {
 
 **Description:** *Returns the file specified by the id*
 
-# [Document Parser](https://github.com/tabishmahfuz1/document-parser)
-## POST: /
+## [Document Parser](https://github.com/tabishmahfuz1/document-parser)
+### POST: /
 **ContentType:** multipart-formdata
 **Description:** *Returns Labels for a document*
 **Prams:**
     - file: multipart file
 **Returns:** *A JSON array of recognised labels.*
 
-# [CIMS Frontend](https://github.com/tabishmahfuz1/cims-frontend)
+## [CIMS Frontend](https://github.com/tabishmahfuz1/cims-frontend)
 **Description:** *React based frontend for CIMS*
