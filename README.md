@@ -14,6 +14,8 @@ There will also be a task list in each room which can be used to track progress,
 
 ## Design Principals
 We have splitted our application into various microservices. This approach allows for a better debugging and testing of issues. Each service is independent of each other. These separate services can also be re-used later on as they are very *self-contained* and are separated based on their responsibilities.
+![Microservices Characteristics](/microservice-characteristics.webp)
+
 
 We have strictly followed the **SOLID** principals in our code. This makes the code very maintainable and easily open to extensions later on, if needed.
 
