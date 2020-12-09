@@ -139,7 +139,7 @@ input PostInput {
 
 **Description:** *Returns the file specified by the id*
 
-# [Doc Parser](https://github.com/tabishmahfuz1/doc-parser)
+# [Document Parser](https://github.com/tabishmahfuz1/document-parser)
 ## POST: /
 **ContentType:** multipart-formdata
 **Description:** *Returns Labels for a document*
